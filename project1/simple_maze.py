@@ -145,7 +145,7 @@ class SimpleMaze(gym.Env):
     def reset(self):
         global IDX
         p.resetSimulation()
-        body_ids = p.loadMJCF('./robot-learning-S2023/project1/mjcf/point_mass.xml')
+        body_ids = p.loadMJCF('./robot-learning-S2024/project1/mjcf/point_mass.xml')
         self._world_id = 0
         self._goal_body_id = None
 
